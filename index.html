@@ -1,0 +1,1101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vishav Book | Handwriting Work From Home Project</title>
+  <meta name="description" content="Vishav Book - Daily Handwriting Projects. Earn ₹350 - ₹400 per page directly into your bank account. No registration fee, 100% genuine work from home.">
+  
+  <!-- Meta Pixel Code -->
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1435531265227291');
+    fbq('track', 'PageView');
+  </script>
+  <noscript>
+    <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1435531265227291&ev=PageView&noscript=1"/>
+  </noscript>
+  <!-- End Meta Pixel Code -->
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg-dark: #080c16;
+      --bg-card: #0f172a;
+      --accent-blue: #38bdf8;
+      --accent-indigo: #6366f1;
+      --gold-1: #fbbf24;
+      --gold-2: #f59e0b;
+      --gold-3: #d97706;
+      --gold-dark: #b45309;
+      --text-main: #0f172a;
+      --text-muted: #64748b;
+      --bg-light: #f8fafc;
+      --border-light: #e2e8f0;
+      --border-dark: rgba(255, 255, 255, 0.1);
+      --font-heading: 'Outfit', sans-serif;
+      --font-body: 'Plus Jakarta Sans', sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: var(--font-body);
+      color: var(--text-main);
+      background-color: var(--bg-light);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      overflow-x: hidden;
+      padding-bottom: 70px;
+    }
+
+    @media (min-width: 768px) {
+      body {
+        padding-bottom: 0;
+      }
+    }
+
+    h1, h2, h3, h4, .font-heading {
+      font-family: var(--font-heading);
+      letter-spacing: -0.02em;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 0 1.25rem;
+    }
+
+    /* 3D Gold Button */
+    .btn-3d-gold {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.6rem;
+      background: linear-gradient(180deg, #fef08a 0%, #fbbf24 35%, #f59e0b 70%, #d97706 100%);
+      color: #0f172a;
+      font-family: var(--font-heading);
+      font-weight: 800;
+      font-size: 1.05rem;
+      padding: 0.95rem 2rem;
+      border-radius: 9999px;
+      border: 1px solid #fde047;
+      box-shadow: 0 6px 0 var(--gold-dark), 0 14px 28px -4px rgba(245, 158, 11, 0.45);
+      cursor: pointer;
+      transition: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      text-align: center;
+    }
+
+    .btn-3d-gold:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 0 var(--gold-dark), 0 18px 32px -4px rgba(245, 158, 11, 0.6);
+      filter: brightness(1.05);
+    }
+
+    .btn-3d-gold:active {
+      transform: translateY(4px);
+      box-shadow: 0 2px 0 var(--gold-dark), 0 6px 14px rgba(245, 158, 11, 0.3);
+    }
+
+    .btn-pulse {
+      animation: pulse-ring 2s infinite;
+    }
+
+    @keyframes pulse-ring {
+      0% {
+        box-shadow: 0 6px 0 var(--gold-dark), 0 0 0 0 rgba(245, 158, 11, 0.7);
+      }
+      70% {
+        box-shadow: 0 6px 0 var(--gold-dark), 0 0 0 16px rgba(245, 158, 11, 0);
+      }
+      100% {
+        box-shadow: 0 6px 0 var(--gold-dark), 0 0 0 0 rgba(245, 158, 11, 0);
+      }
+    }
+
+    /* TOP ANNOUNCEMENT BAR */
+    .top-bar {
+      background: linear-gradient(90deg, #1e1b4b, #312e81, #1e1b4b);
+      color: #e0e7ff;
+      font-size: 0.85rem;
+      font-weight: 600;
+      padding: 0.6rem 1rem;
+      text-align: center;
+      border-bottom: 1px solid rgba(99, 102, 241, 0.3);
+    }
+    .top-bar span {
+      color: #fbbf24;
+      font-weight: 800;
+    }
+
+    /* HEADER */
+    .site-header {
+      background: rgba(8, 12, 22, 0.95);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border-dark);
+      position: sticky;
+      top: 0;
+      z-index: 50;
+    }
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0.85rem 0;
+    }
+    .brand-logo {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+    .logo-img {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 2px solid var(--accent-blue);
+      box-shadow: 0 0 16px rgba(56, 189, 248, 0.4);
+    }
+    .logo-fallback {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #1e293b, #0f172a);
+      border: 2px solid var(--accent-blue);
+      color: #38bdf8;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 900;
+      font-size: 1.1rem;
+      letter-spacing: 0.05em;
+    }
+    .brand-text h2 {
+      font-size: 1.15rem;
+      font-weight: 800;
+      color: #ffffff;
+      line-height: 1.2;
+    }
+    .brand-text p {
+      font-size: 0.75rem;
+      color: var(--accent-blue);
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+    .header-btn {
+      padding: 0.6rem 1.3rem;
+      font-size: 0.85rem;
+      font-weight: 700;
+    }
+
+    /* HERO SECTION */
+    .hero-section {
+      background: radial-gradient(circle at 50% 20%, #1e293b 0%, #080c16 70%);
+      color: #ffffff;
+      padding: 3rem 0 4rem;
+      position: relative;
+      overflow: hidden;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+    }
+    .hero-section::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background-image: 
+        linear-gradient(rgba(56, 189, 248, 0.05) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(56, 189, 248, 0.05) 1px, transparent 1px);
+      background-size: 40px 40px;
+      pointer-events: none;
+    }
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      text-align: center;
+      max-width: 860px;
+      margin: 0 auto;
+    }
+    .badge-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: rgba(56, 189, 248, 0.12);
+      border: 1px solid rgba(56, 189, 248, 0.35);
+      color: #38bdf8;
+      padding: 0.4rem 1.1rem;
+      border-radius: 9999px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      margin-bottom: 1.5rem;
+    }
+    .badge-pill .dot {
+      width: 8px;
+      height: 8px;
+      background-color: #38bdf8;
+      border-radius: 50%;
+      box-shadow: 0 0 8px #38bdf8;
+    }
+    .hero-title {
+      font-size: 2.2rem;
+      line-height: 1.2;
+      font-weight: 900;
+      margin-bottom: 1.25rem;
+      color: #ffffff;
+    }
+    @media (min-width: 768px) {
+      .hero-title {
+        font-size: 3.3rem;
+      }
+    }
+    .gradient-text {
+      background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 50%, #fde047 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-shadow: 0 0 30px rgba(251, 191, 36, 0.3);
+    }
+    .hero-subtitle {
+      font-size: 1.1rem;
+      color: #94a3b8;
+      max-width: 720px;
+      margin: 0 auto 2rem;
+      line-height: 1.7;
+    }
+    .rate-highlight-box {
+      display: inline-flex;
+      flex-direction: column;
+      align-items: center;
+      background: rgba(15, 23, 42, 0.85);
+      border: 2px dashed rgba(251, 191, 36, 0.5);
+      padding: 1rem 1.75rem;
+      border-radius: 1rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+    }
+    .rate-slashed {
+      color: #ef4444;
+      text-decoration: line-through;
+      font-size: 0.95rem;
+      font-weight: 600;
+    }
+    .rate-active {
+      color: #fbbf24;
+      font-size: 2rem;
+      font-weight: 900;
+      font-family: var(--font-heading);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .rate-tag {
+      background: #10b981;
+      color: #ffffff;
+      font-size: 0.75rem;
+      padding: 0.2rem 0.6rem;
+      border-radius: 9999px;
+      font-weight: 800;
+      letter-spacing: 0.05em;
+    }
+
+    /* METRICS / STATS */
+    .metrics-bar {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+      margin-top: 3rem;
+      padding-top: 2rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+    }
+    @media (min-width: 768px) {
+      .metrics-bar {
+        grid-template-columns: repeat(4, 1fr);
+      }
+    }
+    .metric-card {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.06);
+      padding: 1.2rem 1rem;
+      border-radius: 1rem;
+      text-align: center;
+    }
+    .metric-num {
+      font-size: 1.75rem;
+      font-weight: 900;
+      color: #38bdf8;
+      font-family: var(--font-heading);
+      line-height: 1.2;
+    }
+    .metric-label {
+      font-size: 0.8rem;
+      color: #94a3b8;
+      margin-top: 0.3rem;
+      font-weight: 500;
+    }
+
+    /* WAVE DIVIDER */
+    .wave-divider {
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+      line-height: 0;
+      background: #080c16;
+    }
+    .wave-divider svg {
+      position: relative;
+      display: block;
+      width: calc(100% + 1.3px);
+      height: 48px;
+    }
+    .wave-divider .shape-fill {
+      fill: var(--bg-light);
+    }
+
+    /* SECTION BASICS */
+    .section {
+      padding: 4.5rem 0;
+    }
+    .section-header {
+      text-align: center;
+      max-width: 680px;
+      margin: 0 auto 3rem;
+    }
+    .section-tag {
+      color: var(--accent-indigo);
+      font-weight: 800;
+      font-size: 0.85rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      margin-bottom: 0.5rem;
+    }
+    .section-title {
+      font-size: 2.1rem;
+      font-weight: 900;
+      color: #0f172a;
+      line-height: 1.25;
+      margin-bottom: 0.75rem;
+    }
+    @media (min-width: 768px) {
+      .section-title {
+        font-size: 2.5rem;
+      }
+    }
+    .section-desc {
+      color: var(--text-muted);
+      font-size: 1.05rem;
+    }
+
+    /* 3-STEP PROCESS */
+    .steps-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+    @media (min-width: 768px) {
+      .steps-grid {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+    .step-card {
+      background: #ffffff;
+      border: 1px solid var(--border-light);
+      border-radius: 1.25rem;
+      padding: 2rem 1.75rem;
+      position: relative;
+      box-shadow: 0 4px 20px -2px rgba(15, 23, 42, 0.05);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .step-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 30px -4px rgba(15, 23, 42, 0.1);
+    }
+    .step-badge {
+      display: inline-block;
+      background: #eef2ff;
+      color: #4f46e5;
+      font-weight: 800;
+      font-size: 0.8rem;
+      padding: 0.3rem 0.8rem;
+      border-radius: 9999px;
+      margin-bottom: 1.2rem;
+    }
+    .step-title {
+      font-size: 1.35rem;
+      font-weight: 800;
+      color: #0f172a;
+      margin-bottom: 0.75rem;
+    }
+    .step-text {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+      line-height: 1.6;
+    }
+
+    /* LIVE SAMPLES */
+    .samples-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+    @media (min-width: 768px) {
+      .samples-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+    .sample-box {
+      background: #ffffff;
+      border-radius: 1.25rem;
+      border: 1px solid var(--border-light);
+      overflow: hidden;
+      box-shadow: 0 4px 20px rgba(15, 23, 42, 0.05);
+    }
+    .sample-img {
+      width: 100%;
+      height: 260px;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.3s ease;
+    }
+    .sample-box:hover .sample-img {
+      transform: scale(1.03);
+    }
+    .sample-info {
+      padding: 1.5rem;
+    }
+    .sample-title {
+      font-weight: 800;
+      font-size: 1.15rem;
+      color: #0f172a;
+      margin-bottom: 0.5rem;
+    }
+    .sample-meta {
+      display: flex;
+      justify-content: space-between;
+      color: var(--text-muted);
+      font-size: 0.9rem;
+      font-weight: 600;
+    }
+
+    /* PLANS & PRICING */
+    .plans-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+    @media (min-width: 768px) {
+      .plans-grid {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+    .plan-card {
+      background: #ffffff;
+      border: 2px solid var(--border-light);
+      border-radius: 1.5rem;
+      padding: 2.25rem 1.75rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: all 0.2s ease;
+      position: relative;
+    }
+    .plan-card.featured {
+      background: linear-gradient(180deg, #ffffff 0%, #fefce8 100%);
+      border-color: #f59e0b;
+      box-shadow: 0 12px 35px -5px rgba(245, 158, 11, 0.2);
+      transform: scale(1.02);
+    }
+    @media (max-width: 767px) {
+      .plan-card.featured {
+        transform: none;
+      }
+    }
+    .featured-tag {
+      position: absolute;
+      top: -14px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: linear-gradient(90deg, #d97706, #f59e0b);
+      color: #ffffff;
+      font-weight: 800;
+      font-size: 0.75rem;
+      padding: 0.3rem 1rem;
+      border-radius: 9999px;
+      letter-spacing: 0.05em;
+      box-shadow: 0 4px 10px rgba(217, 119, 6, 0.3);
+    }
+    .plan-name {
+      font-size: 1.35rem;
+      font-weight: 800;
+      color: #0f172a;
+      margin-bottom: 0.5rem;
+    }
+    .plan-rate {
+      font-size: 2.25rem;
+      font-weight: 900;
+      color: #0f172a;
+      font-family: var(--font-heading);
+      margin-bottom: 0.25rem;
+    }
+    .plan-rate span {
+      font-size: 1rem;
+      color: var(--text-muted);
+      font-weight: 600;
+    }
+    .plan-earning {
+      display: inline-block;
+      background: #ecfdf5;
+      color: #059669;
+      font-size: 0.85rem;
+      font-weight: 700;
+      padding: 0.3rem 0.75rem;
+      border-radius: 0.5rem;
+      margin-bottom: 1.5rem;
+    }
+    .plan-features {
+      list-style: none;
+      margin-bottom: 2rem;
+    }
+    .plan-features li {
+      padding: 0.45rem 0;
+      color: #475569;
+      font-size: 0.95rem;
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+    .plan-features li::before {
+      content: "✔";
+      color: #10b981;
+      font-weight: 900;
+    }
+
+    /* FAQ ACCORDION */
+    .faq-container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .faq-item {
+      background: #ffffff;
+      border: 1px solid var(--border-light);
+      border-radius: 1rem;
+      margin-bottom: 1rem;
+      overflow: hidden;
+      transition: border-color 0.2s;
+    }
+    .faq-item.active {
+      border-color: #6366f1;
+    }
+    .faq-question {
+      width: 100%;
+      text-align: left;
+      padding: 1.25rem 1.5rem;
+      background: transparent;
+      border: none;
+      outline: none;
+      font-family: var(--font-heading);
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: #0f172a;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .faq-arrow {
+      transition: transform 0.2s;
+      font-size: 0.8rem;
+      color: #64748b;
+    }
+    .faq-item.active .faq-arrow {
+      transform: rotate(180deg);
+      color: #6366f1;
+    }
+    .faq-answer {
+      display: none;
+      padding: 0 1.5rem 1.25rem;
+      color: #475569;
+      font-size: 0.95rem;
+      line-height: 1.7;
+    }
+    .faq-item.active .faq-answer {
+      display: block;
+    }
+
+    /* BOTTOM CTA SECTION */
+    .cta-banner {
+      background: radial-gradient(circle at 50% 50%, #1e1b4b 0%, #080c16 80%);
+      color: #ffffff;
+      padding: 5rem 0;
+      text-align: center;
+      position: relative;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    .timer-wrap {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.75rem;
+      background: rgba(239, 68, 68, 0.15);
+      border: 1px solid rgba(239, 68, 68, 0.4);
+      padding: 0.5rem 1.25rem;
+      border-radius: 9999px;
+      margin-bottom: 2rem;
+    }
+    .timer-text {
+      color: #fca5a5;
+      font-size: 0.9rem;
+      font-weight: 700;
+    }
+    .timer-digits {
+      color: #ffffff;
+      font-weight: 900;
+      font-family: var(--font-heading);
+      font-size: 1.1rem;
+      letter-spacing: 0.05em;
+    }
+
+    /* FOOTER */
+    .site-footer {
+      background: #05070d;
+      color: #94a3b8;
+      text-align: center;
+      padding: 2.5rem 0;
+      border-top: 1px solid rgba(255, 255, 255, 0.05);
+      font-size: 0.85rem;
+    }
+
+    /* STICKY BOTTOM BAR FOR MOBILE */
+    .sticky-mobile-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(8, 12, 22, 0.97);
+      backdrop-filter: blur(12px);
+      border-top: 1px solid rgba(255, 255, 255, 0.15);
+      padding: 0.75rem 1.25rem;
+      z-index: 99;
+      box-shadow: 0 -8px 24px rgba(0, 0, 0, 0.4);
+    }
+    @media (min-width: 768px) {
+      .sticky-mobile-bar {
+        display: none;
+      }
+    }
+    .sticky-bar-text strong {
+      display: block;
+      color: #fbbf24;
+      font-size: 1rem;
+      font-weight: 800;
+    }
+    .sticky-bar-text span {
+      font-size: 0.75rem;
+      color: #94a3b8;
+    }
+    .sticky-bar-btn {
+      padding: 0.65rem 1.25rem;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- TOP ANNOUNCEMENT BAR -->
+  <div class="top-bar">
+    ⚡ <span>LIMITED TIME:</span> New Handwriting Assignment Batch Open • Daily Payment Guarantee
+  </div>
+
+  <!-- SITE HEADER -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand-logo">
+        <img 
+          src="https://animate-theme-studio.lovable.app/assets/logo-Bb6hAM_r.jpeg" 
+          alt="Vishav Book Logo" 
+          class="logo-img" 
+          onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+        />
+        <div class="logo-fallback" style="display:none;">VB</div>
+        <div class="brand-text">
+          <h2>Vishav Book</h2>
+          <p>Handwriting Projects</p>
+        </div>
+      </div>
+      <a href="https://t.me/+HLVhx-dxa_MwNTBl" target="_blank" rel="noopener noreferrer" class="btn-3d-gold header-btn">
+        Join Telegram
+      </a>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero-section">
+    <div class="container hero-content">
+      <div class="badge-pill">
+        <span class="dot"></span>
+        Govt. Registered Publisher • 100% Genuine Work
+      </div>
+      
+      <h1 class="hero-title">
+        Daily Book Writing Work From Home & Earn <br>
+        <span class="gradient-text">₹350 - ₹400 Per Page</span>
+      </h1>
+
+      <p class="hero-subtitle">
+        Simple and verified handwriting projects from Vishav Book Publication. Write books, novels, and study notes in neat handwriting from home and receive daily payments directly into your bank account.
+      </p>
+
+      <!-- Rate Highlight Box -->
+      <div>
+        <div class="rate-highlight-box">
+          <span class="rate-slashed">Old Rate: ₹150 / Page</span>
+          <div class="rate-active">
+            ₹350 - ₹400 <span style="font-size:1.1rem; color:#ffffff;">/ Single Page</span>
+            <span class="rate-tag">HIGHEST PAYOUT</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Main CTA Button -->
+      <div>
+        <a href="https://t.me/+HLVhx-dxa_MwNTBl" target="_blank" rel="noopener noreferrer" class="btn-3d-gold btn-pulse" style="font-size: 1.15rem; padding: 1.1rem 2.5rem;">
+          👉 JOIN OFFICIAL TELEGRAM & START TODAY
+        </a>
+      </div>
+
+      <p style="font-size: 0.85rem; color: #94a3b8; margin-top: 1rem;">
+        ⚡ Instant Assignment Delivery • No Computer Required • Student, Housewife & Freshers Welcome
+      </p>
+
+      <!-- Stats / Metrics Grid -->
+      <div class="metrics-bar">
+        <div class="metric-card">
+          <div class="metric-num">₹2.8 Cr+</div>
+          <div class="metric-label">Paid to Writers</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-num">14,200+</div>
+          <div class="metric-label">Active Writers</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-num">100%</div>
+          <div class="metric-label">Daily Bank Transfer</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-num">32 Slots</div>
+          <div class="metric-label">Remaining Today</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WAVE DIVIDER -->
+  <div class="wave-divider">
+    <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+      <path d="M0,0 C150,90 350,-40 500,45 C650,130 900,10 1200,40 L1200,120 L0,120 Z" class="shape-fill"></path>
+    </svg>
+  </div>
+
+  <!-- HOW IT WORKS SECTION -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Simple 3-Step Process</div>
+        <h2 class="section-title">How to Get Started & How You Get Paid</h2>
+        <p class="section-desc">No special degree or prior experience required. All you need is clean, neat handwriting and dedication.</p>
+      </div>
+
+      <div class="steps-grid">
+        <div class="step-card">
+          <span class="step-badge">STEP 01</span>
+          <h3 class="step-title">Join Official Telegram Channel</h3>
+          <p class="step-text">Click the button below to join our official Telegram channel where daily assignments and guidelines are posted.</p>
+        </div>
+
+        <div class="step-card">
+          <span class="step-badge">STEP 02</span>
+          <h3 class="step-title">Receive Assignment Materials</h3>
+          <p class="step-text">You will receive project texts (books, articles, or notes). Simply transcribe them neatly onto A4 sheets or notebooks.</p>
+        </div>
+
+        <div class="step-card">
+          <span class="step-badge">STEP 03</span>
+          <h3 class="step-title">Receive Daily Direct Payouts</h3>
+          <p class="step-text">Submit your completed pages via photo or courier and get paid the same day via UPI, Google Pay, PhonePe, Paytm, or Bank Transfer.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LIVE SAMPLE PREVIEWS -->
+  <section class="section" style="background: #f1f5f9; border-top: 1px solid var(--border-light); border-bottom: 1px solid var(--border-light);">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Work Samples</div>
+        <h2 class="section-title">Real Handwriting Project Samples</h2>
+        <p class="section-desc">Here are actual samples of the handwriting projects and notebooks you will work on.</p>
+      </div>
+
+      <div class="samples-grid">
+        <div class="sample-box">
+          <img 
+            src="https://animate-theme-studio.lovable.app/assets/handwriting-Bad0LXsB.jpg" 
+            alt="Handwriting Sample Book Writing" 
+            class="sample-img"
+          />
+          <div class="sample-info">
+            <div class="sample-title">Book Transcription Project (English/Hindi)</div>
+            <div class="sample-meta">
+              <span>Rate: ₹350 - ₹400 / Page</span>
+              <span style="color: #10b981;">Daily Approved</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="sample-box">
+          <img 
+            src="https://animate-theme-studio.lovable.app/assets/notebooks-2jZFeejr.jpg" 
+            alt="Notebook Handwriting Project" 
+            class="sample-img"
+          />
+          <div class="sample-info">
+            <div class="sample-title">Notebook Writing & Assignment Delivery</div>
+            <div class="sample-meta">
+              <span>Rate: ₹350 / Page</span>
+              <span style="color: #10b981;">Material Provided</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div style="text-align: center; margin-top: 2.5rem;">
+        <a href="https://t.me/+HLVhx-dxa_MwNTBl" target="_blank" rel="noopener noreferrer" class="btn-3d-gold">
+          View All Live Projects on Telegram
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- PLANS & EARNINGS -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Flexible Plans</div>
+        <h2 class="section-title">Choose a Plan That Fits Your Schedule</h2>
+        <p class="section-desc">The more pages you write each day, the higher your daily earnings.</p>
+      </div>
+
+      <div class="plans-grid">
+        <!-- Plan 1 -->
+        <div class="plan-card">
+          <div>
+            <div class="plan-name">Part-Time Writer</div>
+            <div class="plan-rate">₹350 <span>/ Page</span></div>
+            <div class="plan-earning">Daily Earnings: ₹700 - ₹1,050</div>
+            <ul class="plan-features">
+              <li>Write 2 to 3 pages per day</li>
+              <li>Time: 1 to 2 hours daily</li>
+              <li>Daily direct bank transfer</li>
+              <li>Flexible pace with zero pressure</li>
+            </ul>
+          </div>
+          <a href="https://t.me/+HLVhx-dxa_MwNTBl" target="_blank" rel="noopener noreferrer" class="btn-3d-gold" style="width: 100%; padding: 0.8rem 1rem; font-size: 0.95rem;">
+            Select Part-Time
+          </a>
+        </div>
+
+        <!-- Plan 2 (Featured) -->
+        <div class="plan-card featured">
+          <div class="featured-tag">MOST POPULAR</div>
+          <div>
+            <div class="plan-name">Standard Writer</div>
+            <div class="plan-rate">₹380 <span>/ Page</span></div>
+            <div class="plan-earning">Daily Earnings: ₹1,520 - ₹1,900</div>
+            <ul class="plan-features">
+              <li>Write 4 to 5 pages per day</li>
+              <li>Time: 2 to 3 hours daily</li>
+              <li>Weekly bonus + stationery support</li>
+              <li>Priority payment processing</li>
+            </ul>
+          </div>
+          <a href="https://t.me/+HLVhx-dxa_MwNTBl" target="_blank" rel="noopener noreferrer" class="btn-3d-gold" style="width: 100%; padding: 0.8rem 1rem; font-size: 0.95rem;">
+            Select Standard
+          </a>
+        </div>
+
+        <!-- Plan 3 -->
+        <div class="plan-card">
+          <div>
+            <div class="plan-name">Full-Time Master</div>
+            <div class="plan-rate">₹400 <span>/ Page</span></div>
+            <div class="plan-earning">Daily Earnings: ₹2,400 - ₹3,200</div>
+            <ul class="plan-features">
+              <li>Write 6 to 8 pages per day</li>
+              <li>Unlimited daily assignments</li>
+              <li>Top priority writer support</li>
+              <li>Earn up to ₹70,000+ per month</li>
+            </ul>
+          </div>
+          <a href="https://t.me/+HLVhx-dxa_MwNTBl" target="_blank" rel="noopener noreferrer" class="btn-3d-gold" style="width: 100%; padding: 0.8rem 1rem; font-size: 0.95rem;">
+            Select Full-Time
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ SECTION -->
+  <section class="section" style="background: #ffffff; border-top: 1px solid var(--border-light);">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Frequently Asked Questions</div>
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <p class="section-desc">Find clear and honest answers to all common questions about our handwriting assignments.</p>
+      </div>
+
+      <div class="faq-container">
+        <div class="faq-item active">
+          <button class="faq-question">
+            <span>1. Do I need a computer or laptop for this work?</span>
+            <span class="faq-arrow">▼</span>
+          </button>
+          <div class="faq-answer">
+            No, not at all! This is 100% handwriting work. All you need is a pen and paper. Your mobile phone is only used to receive assignment instructions and check payment confirmations.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>2. When and how will I receive my payments?</span>
+            <span class="faq-arrow">▼</span>
+          </button>
+          <div class="faq-answer">
+            Payments are made daily. Once your submitted pages are reviewed, earnings are immediately transferred to your Bank Account, Google Pay, PhonePe, or UPI ID.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>3. Can students or homemakers do this work?</span>
+            <span class="faq-arrow">▼</span>
+          </button>
+          <div class="faq-answer">
+            Yes, absolutely! Anyone with clear and legible handwriting is welcome. You can work whenever you have free time, day or night.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>4. How do I receive my first assignment?</span>
+            <span class="faq-arrow">▼</span>
+          </button>
+          <div class="faq-answer">
+            Simply join our official Telegram channel using the links on this page. Your first assignment and guidelines will be shared immediately.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BANNER WITH LIVE TIMER -->
+  <section class="cta-banner">
+    <div class="container" style="position: relative; z-index: 2;">
+      <div class="timer-wrap">
+        <span class="timer-text">🔥 Today's Batch Closing In:</span>
+        <span class="timer-digits" id="countdown-timer">14m : 52s</span>
+      </div>
+
+      <h2 style="font-size: 2.2rem; font-weight: 900; margin-bottom: 1rem; color: #ffffff;">
+        Start Writing with Vishav Book Today!
+      </h2>
+      
+      <p style="color: #94a3b8; font-size: 1.05rem; max-width: 620px; margin: 0 auto 2.5rem;">
+        Limited writer slots remaining. Join the official Telegram channel now and claim your first assignment.
+      </p>
+
+      <a href="https://t.me/+HLVhx-dxa_MwNTBl" target="_blank" rel="noopener noreferrer" class="btn-3d-gold btn-pulse" style="font-size: 1.2rem; padding: 1.15rem 2.8rem;">
+        👉 JOIN TELEGRAM CHANNEL NOW
+      </a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <p style="font-weight: 700; color: #ffffff; font-size: 1rem; margin-bottom: 0.5rem;">Vishav Book Publication Pvt. Ltd.</p>
+      <p>© 2026 Vishav Book. All Rights Reserved. Govt. Registered Book Publisher.</p>
+      <p style="font-size: 0.75rem; color: #475569;">Disclaimer: This website provides genuine handwriting project opportunities. Terms and conditions apply.</p>
+    </div>
+  </footer>
+
+  <!-- MOBILE STICKY CTA BAR -->
+  <div class="sticky-mobile-bar">
+    <div class="sticky-bar-text">
+      <strong>₹350 - ₹400 / Page</strong>
+      <span>Slots Closing Soon</span>
+    </div>
+    <a href="https://t.me/+HLVhx-dxa_MwNTBl" target="_blank" rel="noopener noreferrer" class="btn-3d-gold sticky-bar-btn">
+      Join Telegram ⚡
+    </a>
+  </div>
+
+  <!-- SCRIPT FOR FAQ & COUNTDOWN TIMER -->
+  <script>
+    // FAQ Accordion
+    document.querySelectorAll('.faq-question').forEach(button => {
+      button.addEventListener('click', () => {
+        const item = button.parentElement;
+        const isActive = item.classList.contains('active');
+        document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('active'));
+        if (!isActive) {
+          item.classList.add('active');
+        }
+      });
+    });
+
+    // Countdown Timer
+    (function startTimer() {
+      let duration = 15 * 60; // 15 minutes
+      const timerElement = document.getElementById('countdown-timer');
+      
+      setInterval(function () {
+        let minutes = parseInt(duration / 60, 10);
+        let seconds = parseInt(duration % 60, 10);
+
+        minutes = minutes < 10 ? "0" + minutes : minutes;
+        seconds = seconds < 10 ? "0" + seconds : seconds;
+
+        if (timerElement) {
+          timerElement.textContent = minutes + "m : " + seconds + "s";
+        }
+
+        if (--duration < 0) {
+          duration = 15 * 60; // Reset loop
+        }
+      }, 1000);
+    })();
+  </script>
+</body>
+</html>
